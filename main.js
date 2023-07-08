@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const resources = [
     loadResourse('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'),
     loadResourse('./css/style.css'),
+    loadResourse('./css/media.css'),
     loadResourse('./sketch.js'),
     renderEpisodesTitles('https://swapi.dev/api/films/', './episodes-list.js'),
   ];
