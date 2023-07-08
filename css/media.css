@@ -4,3 +4,10 @@
         text-align: center;
     }
 }
+
+@media (max-width: 828px) {
+    .episode-link {
+        font-size: 20px;
+        text-align: center;
+    }
+}
