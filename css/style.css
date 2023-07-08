@@ -1,0 +1,85 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.episode-link {
+  font-family: "Arial Black", sans-serif;
+  font-size: 48px;
+  width: fit-content;
+  color: yellow;
+  margin-bottom: 25px;
+  text-align: justify;
+  text-shadow: 0 0 5px #FFFF00, 0 0 10px #FFFF00, 0 0 15px #FFFF00, 0 0 20px #FFFF00, 0 0 30px #FFFF00;
+  cursor: url('../img/Lightsaber-Green-icon.png') 0 0, auto;
+}
+
+.episode-modal-header {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.episode-btn-back {
+  display: flex;
+  width: max-content;
+  height: 60px;
+  font-size: 24px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.episode-description {
+  color: white;
+}
+
+.planets-header,
+.races-header {
+  color: white;
+}
+
+.planets-list,
+.races-list {
+  color: white;
+  margin-bottom: 15px;
+  flex-direction: row;
+  list-style: none;
+}
+
+.planet,
+.race {
+  width: max-content;
+  margin-right: 10px;
+}
+
+.btn-previous,
+.btn-next {
+  width: max-content;
+  height: 40px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
